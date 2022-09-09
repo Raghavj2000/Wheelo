@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "442334903253",
+    "project_id": "wheelo-c836f",
+    "storage_bucket": "wheelo-c836f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442334903253:android:583327718f82017143db5c",
+        "android_client_info": {
+          "package_name": "com.example.wheelchairguidance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442334903253-ihhc865tbgbedkjirlkbdenjfii5srho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt5MeIe_o5om5jV7NnlbemhJiEU2Du0y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442334903253-ihhc865tbgbedkjirlkbdenjfii5srho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

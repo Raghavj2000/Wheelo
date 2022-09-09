@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#81C784"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:contentPadding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardRelativeLayout"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/poiTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text = "Title of POI"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/poiDescription"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/poiTitle"
+            android:layout_marginTop="10dp"
+            tools:text = "Description of POI"
+            android:textSize="15sp"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
